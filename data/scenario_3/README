@@ -1,0 +1,3 @@
+Scenario 3
+edu.uchicago.cs.Client A and edu.uchicago.cs.Client B both try to sell the same stock.
+The transaction server should maintain a record of all the transactions properly.

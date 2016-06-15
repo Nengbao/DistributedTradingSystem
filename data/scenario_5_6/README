@@ -1,0 +1,7 @@
+Scenario 5
+Spin up 10 clients and have half buy stock and half sell stock for 20 minutes. Make sure there are no memory leaks.
+Which software will you be using for memory leaks?
+
+Scenario 6
+a. Spin Up a large number of clients (i.e. 1000) and sell some stock
+b. Spin Up a large number of clients (i.e. 1000) and buy some stock

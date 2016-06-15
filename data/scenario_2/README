@@ -1,0 +1,3 @@
+Scenario 2
+edu.uchicago.cs.Client 1 repeatedly buy and sell a reasonable quantity of a stock, which is located in a server.
+At the same time, kill the server and see how the whole system behaves.

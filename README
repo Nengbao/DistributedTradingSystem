@@ -1,0 +1,21 @@
+A distributed trading system to simulate stock trading.
+- Adopted a hybrid of peer-to-peer and client-server architecture, which is the super-peer architecture
+- Included key distributed system features: data replication and fault tolerance
+- Passed concurrency test of 1,000 clients trading stocks at the same time easily on a laptop
+
+In the data folder, you will see different scenarios, each scenario is accompanied with a makefile,
+you can test each scenario with the corresponding make target.
+
+Generally,
+To compile: make or make run
+Firstly start each sentinel server in a terminal: make run_sentinel_*** ('*' means there are multiple
+targets to run sentinels)
+Secondly start each exchange in a terminal: make run_exchange_***
+Lastly, start the test client in a terminal: make run_client***
+To clean generated class files: make clean
+To kill background processes associated with this demo program: make kill
+
+Note: in case of any exception saying "address is already in use", you need to change the "portNum"
+in two places in the makefile to a different free port.
+
+JGroups, a library for reliable and distributed messaging, is utilized in implementing this program.

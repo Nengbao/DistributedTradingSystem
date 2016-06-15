@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jgroups-3.6.9.Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jgroups-3.6.9.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,3 @@
+Scenario 1
+edu.uchicago.cs.Client 1 and edu.uchicago.cs.Client 2 individually buy and sell the same amount of quantity of a stock for several times
+at the same time. The quantity of this stock should not be changed after these transactions.

@@ -1,0 +1,3 @@
+Scenario 4
+edu.uchicago.cs.Client A and edu.uchicago.cs.Client B both try to buy the same stock, but there is not enough for both.
+Either client A or edu.uchicago.cs.Client B should receive a well formatted Error message.
